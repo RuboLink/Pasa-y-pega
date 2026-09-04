@@ -1,4 +1,8 @@
+
 public interface IEnemigo {
+    void setNombre();
+    String getNombre();
+
     void setNombre();
     String getNombre();
 
