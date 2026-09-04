@@ -1,14 +1,14 @@
 
 public interface IEnemigo {
 
+    void setNombre();
+    String getNombre();
+
     void setVida();
     int getVida();
 
     void setDefensa();
     int getDefensa();
-
-    void setNombre();
-    String getNombre();
 
     int getAtaque();
     void setAtaque();
