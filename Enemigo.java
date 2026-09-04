@@ -4,4 +4,8 @@ public interface Enemigo {
 
     void setVida();
     int getVida();
+
+    void setDefensa();
+    int getDefensa();
+
 }
