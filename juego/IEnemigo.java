@@ -1,3 +1,4 @@
+
 public interface IEnemigo {
 
     void setVida();
