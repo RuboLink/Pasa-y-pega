@@ -1,4 +1,4 @@
-public interface Enemigo {
+public interface IEnemigo {
     public static int vida = 100;
     public static int defensa = 100;
     public static String nombre = "Pepito";
@@ -16,4 +16,5 @@ public interface Enemigo {
 
     String getNombre();
 
+    int getataque();
 }
