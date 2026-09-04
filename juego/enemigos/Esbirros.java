@@ -1,5 +1,5 @@
 package enemigos;
-import Juego.IEnemigo;
+import juego.IEnemigo;
 
 public abstract class Esbirros implements IEnemigo{
 
