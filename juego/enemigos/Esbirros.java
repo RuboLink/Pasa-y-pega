@@ -1,18 +1,18 @@
 package enemigos;
-<<<<<<< HEAD
-=======
-import juego.IEnemigo;
->>>>>>> 0caf9a0b101f0341c727175d305b89f14cc86541
 
-public abstract class Esbirros {
+import juego.IEnemigo;
+
+public abstract class Esbirros implements IEnemigo {
 
     private String nombre;
 
-    public void setNombre(String nombre) {
+    @Override
+    void setNombre(nombre){
         this.nombre = nombre;
     }
 
-    public String getNombre() {
+    @Override
+    String getNombre() {
         return this.nombre;
     }
 
