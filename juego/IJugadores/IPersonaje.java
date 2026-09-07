@@ -24,5 +24,7 @@ public interface IPersonaje {
 
     void setVida();
     int getVida();
+
+    
     
 }

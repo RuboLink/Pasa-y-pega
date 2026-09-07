@@ -43,6 +43,7 @@ Cada arma utiliza una estadística distinta para calcular el daño:
 5. Se actualiza la vida de cada participante.
 6. El bucle termina cuando uno de los bandos queda sin vida.
 7. Se muestra el mensaje final correspondiente.
+8. Se actualiza la vida de los jugadores si siguen vivos.
 
 ## Final del Juego
 
@@ -68,4 +69,4 @@ E añadido una clase  IEntidades para q todos tengan estas caracteristicas y mi 
 Esta todo comentado por si te parece bien .Como lo ves?.
 En IEnemigo  e añadido todas las caracteristicas por si nos hacen falta mas tarde.
 
-Dandole vueltas a la cosa creo que deberiamos ir pensando en meter los metodos de atacar y defender.que te parece que para calcular el daño sea el ataque del enemigo menos la  defensa del jugador? y que si el jugador defiende en lugar de atacar sea el ataque del enemigo menos defensa del jugador y menos durabilidad del arma o escudo? asi cuando el arma o escudo llegue a cero que se rompa.
+Dandole vueltas a la cosa creo que deberiamos ir pensando en meter los metodos de atacar y defender.que te parece que para calcular el daño sea el ataque del enemigo mas su caractristica principal(fuerza ,destreza...) menos la  defensa del jugador? y que si el jugador defiende en lugar de atacar el daño sea el ataque del enemigo mas su caracteristica principal(fuerza ,destreza...) menos defensa del jugador y menos durabilidad del arma o escudo? asi cuando el arma o escudo llegue a cero que se rompa.
