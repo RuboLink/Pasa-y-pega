@@ -64,6 +64,8 @@ Cada final muestra un mensaje distinto para cerrar la partida.
 
 el planteamiento es estupendo y muy bien desarrolado.Pero yo añadiria una cosa la defensa a los monstruos y el ataque.
 
-e añadido una clase  IEntidades para q todos tengan estas caracteristicas y mi idea es q luego hereden las clases esto con un extends y cada clase tenga algo especifico mediante un @Override y asi vamos depurandolo todo un poco.
+E añadido una clase  IEntidades para q todos tengan estas caracteristicas y mi idea es q luego hereden las clases esto con un extends y cada clase tenga algo especifico mediante un @Override y asi vamos depurandolo todo un poco.
 Esta todo comentado por si te parece bien .Como lo ves?.
 En IEnemigo  e añadido todas las caracteristicas por si nos hacen falta mas tarde.
+
+Dandole vueltas a la cosa creo que deberiamos ir pensando en meter los metodos de atacar y defender.que te parece que para calcular el daño sea el ataque del enemigo menos la  defensa del jugador? y que si el jugador defiende en lugar de atacar sea el ataque del enemigo menos defensa del jugador y menos durabilidad del arma o escudo? asi cuando el arma o escudo llegue a cero que se rompa.
