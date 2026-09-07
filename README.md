@@ -18,6 +18,8 @@ Tanto los personajes como los monstruos cuentan con las siguientes estadísticas
 
 - Vida
 - Fuerza
+- Ataque
+- Defensa
 - Inteligencia
 - Destreza
 - Velocidad
@@ -49,12 +51,19 @@ Cada arma utiliza una estadística distinta para calcular el daño:
 
 Cada final muestra un mensaje distinto para cerrar la partida.
 
-
 ## Flujo de desarrollo
 
 - [] Crear las entidades que van a interactuar.
-    - [] Definir personajes distintos: Guerrero, mago, arquero, por ejemplo
+- [] Definir personajes distintos: Guerrero, mago, arquero, por ejemplo
 - [x] Crear las interfaces básicas de cada entidad.
-- [] Diseñar mediante enums las armas con sus características y valores (Mirar lo de los planetas aquí -> https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
+- [] Diseñar mediante enums las armas con sus características y valores (Mirar lo de los planetas [aquí](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html))
 - [] Hacer un método que ordene a los personajes por velocidad para gestionar los turnos.
 - [] Hacer una clase principal donde poner el método main para entrar al programa.
+
+## Anotaciones de lo que quiero decirte
+
+el planteamiento es estupendo y muy bien desarrolado.Pero yo añadiria una cosa la defensa a los monstruos y el ataque.
+
+e añadido una clase  IEntidades para q todos tengan estas caracteristicas y mi idea es q luego hereden las clases esto con un extends y cada clase tenga algo especifico mediante un @Override y asi vamos depurandolo todo un poco.
+Esta todo comentado por si te parece bien .Como lo ves?.
+En IEnemigo  e añadido todas las caracteristicas por si nos hacen falta mas tarde.
